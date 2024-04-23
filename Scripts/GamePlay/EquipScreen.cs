@@ -2,15 +2,8 @@
 
 namespace TextRPG
 {
-    internal class EquipScreen
+    internal class EquipScreen : Screen
     {
-        private GameManager gm;
-        private DataManager dm;
-        public EquipScreen()
-        {
-            gm = GameManager.instance;
-            dm = DataManager.instance;
-        }
 
         // 장비 장착
         public void EquipScreenOn()
@@ -20,7 +13,7 @@ namespace TextRPG
             while (true)
             {
                 EquipText ();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 0. 뒤로 가기  장비 번호 : 장착/ 장착 해제
                 if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= dm.PlayerItemsCount())
@@ -32,8 +25,7 @@ namespace TextRPG
                     }
 
                     Item item = dm.GetPlayerItem(input - 1);
-
-                    item.Equip(); // 장비 장착 및 해제
+                    Equip(item);
 
                     Console.Clear();
                 }
@@ -44,6 +36,34 @@ namespace TextRPG
             }
         }
 
+        private void Equip(Item item) // 장비 장착 함수
+        {
+
+            item.IsEquip = !item.IsEquip;
+
+            if (item.IsEquip) // 장비 장착
+            {
+                if (item.Itemtype == ItemTypes.Attack)
+                {
+                    gm.Player.EquipAtk += item.Value;
+                }
+                else
+                {
+                    gm.Player.EquipDef += item.Value;
+                }
+            }
+            else
+            {
+                if (item.Itemtype == ItemTypes.Attack)
+                {
+                    gm.Player.EquipAtk -= item.Value;
+                }
+                else
+                {
+                    gm.Player.EquipDef -= item.Value;
+                }
+            }
+        }
 
         // 장비 장착 텍스트 출력
         private void EquipText()
@@ -57,7 +77,7 @@ namespace TextRPG
             for (int i = 0; i < dm.PlayerItemsCount(); i++)
             {
                 Console.Write($"- {i + 1} ");
-                gm.Text.InventoryItemText(dm.GetPlayerItem(i));
+                InventoryItemText(dm.GetPlayerItem(i));
             }
 
             Console.WriteLine();

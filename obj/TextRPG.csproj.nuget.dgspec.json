@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\TextRPG.csproj": {}
+    "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\TextRPG.csproj": {
+    "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\TextRPG.csproj",
+        "projectUniqueName": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj",
         "projectName": "TextRPG",
-        "projectPath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\TextRPG.csproj",
+        "projectPath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj",
         "packagesPath": "C:\\Users\\wltmd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\obj\\",
+        "outputPath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wltmd\\AppData\\Roaming\\NuGet\\NuGet.Config",

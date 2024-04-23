@@ -1,15 +1,11 @@
 ﻿
 namespace TextRPG
 {
-    public class ShopScreen
+    public class ShopScreen : Screen
     {
-        private GameManager gm;
-        private DataManager dm;
         private ItemBuyScreen itemBuyScreen;
         public ShopScreen()
         {
-            gm = GameManager.instance;
-            dm = DataManager.instance;
             itemBuyScreen = new ItemBuyScreen();
         }
 
@@ -21,7 +17,7 @@ namespace TextRPG
             while (true)
             {
                 ShopText();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 0: 뒤로 가기  1: 아이템 구매
                 if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= 1)
@@ -64,7 +60,7 @@ namespace TextRPG
             {
                 Item item = dm.GetShopItem(i);
                 string itemType = item.Itemtype == ItemTypes.Attack ? "공격력" : "방어력";
-                string sell = item.Gold == 0  ? "구매 완료" : $"{item.Gold}";
+                string sell = item.IsSell ? "구매 완료" : $"{item.Gold} G";
                 Console.WriteLine($"- {item.ItemName}\t| {itemType} +{item.Value} |\t{item.Desc} | {sell}");
             }
 

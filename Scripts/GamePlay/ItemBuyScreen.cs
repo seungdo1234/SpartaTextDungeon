@@ -1,7 +1,7 @@
 ﻿
 namespace TextRPG
 {
-    public class ItemBuyScreen
+    public class ItemBuyScreen :Screen
     {
         private GameManager gm;
         private DataManager dm;
@@ -19,7 +19,7 @@ namespace TextRPG
             while (true)
             {
                 ItemBuyScreenText();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 0: 뒤로가기  아이템 번호 : 구매
                 if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= dm.ShopItemsCount())
@@ -33,19 +33,23 @@ namespace TextRPG
                     Item item = dm.GetShopItem(input - 1);
 
                     // 아이템 구매 및 실패
-                    if(item.Gold == 0)
+                    if (item.IsSell) 
                     {
                         Console.WriteLine("이미 구매한 아이템입니다. \n");
                     }
-                    else if (gm.Player.Gold >= item.Gold)
+                    else
                     {
-                        Console.WriteLine("구매를 완료했습니다. \n");
-                        dm.AddPlayerItem(item);
+                        if(gm.Player.Gold >= item.Gold) // 아이템 구매
+                        {
+                            Console.WriteLine("구매를 완료했습니다. \n");
+                            dm.AddPlayerItem(item);
+                        }
+                        else // 실패
+                        {
+                            Console.WriteLine("Gold가 부족합니다 !\n");
+                        }
                     }
-                    else if(gm.Player.Gold < item.Gold)
-                    {
-                        Console.WriteLine("Gold가 부족합니다 !\n");
-                    }
+
                 }
                 else
                 {
@@ -71,11 +75,12 @@ namespace TextRPG
             Console.WriteLine();
 
             Console.WriteLine("[아이템 목록]");
-            for (int i = 0; i < dm.ShopItemsCount(); i++) // ?
+
+            for (int i = 0; i < dm.ShopItemsCount(); i++) // 판매 목록 출력
             {
                 Item item = dm.GetShopItem(i);
                 string itemType = item.Itemtype == ItemTypes.Attack ? "공격력" : "방어력";
-                string sell = item.Gold == 0 ? "구매 완료" : $"{item.Gold}";
+                string sell = item.IsSell ? "구매 완료" : $"{item.Gold} G";
                 Console.WriteLine($"- {i + 1} {item.ItemName}\t| {itemType} +{item.Value} |\t{item.Desc} | {sell}");
             }
 

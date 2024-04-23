@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WWbn707ANxxzn7RpXsmUTa3kJAfdGFEfELooHj6I0u+XHjuWN+aLGB4RuNV2oAL5w4Q1s+kxQoF244U0K+qj2w==",
+  "dgSpecHash": "L6uelV6HijT2KHDmWsH6CPM54wzZoCOLOX6YQ3s9ocm+hAD+Gh3bhdwPJwBGxeVqqsiL1Z3JUQtvG+UjYex4dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\TextRPG.csproj",
+  "projectFilePath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

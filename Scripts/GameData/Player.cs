@@ -14,12 +14,12 @@
 
         public string Name { get => name; }
         public int Level { get => level; }
-        public int Atk { get => atk; }
-        public int Def { get => def; }
+        public int Atk { get => atk + equipAtk; }
+        public int Def { get => def + equipDef; }
         public int Health { get => health; }
-        public int Gold { get => gold; }
-        public int EquipAtk { get => equipAtk; }
-        public int EquipDef { get => equipDef; }
+        public int Gold { get => gold; set { gold = value; } }
+        public int EquipAtk { get => equipAtk; set { equipAtk = value; } }
+        public int EquipDef { get => equipDef; set { equipDef = value; } }
 
         public Player(string name)
         {
@@ -29,38 +29,6 @@
             def = 5;
             health = 100;
             gold = 1500;
-        }
-
-
-        public void Equip(ItemTypes type, int value)
-        {
-            if (type == ItemTypes.Attack)
-            {
-                equipAtk += value;
-                atk += value;
-            }
-            else
-            {
-                equipDef += value;
-                atk -= value;
-            }
-        }
-
-        public void UnEquip(ItemTypes type, int value)
-        {
-            if (type == ItemTypes.Attack)
-            {
-                equipAtk -= value;
-            }
-            else
-            {
-                equipDef -= value;
-            }
-        }
-
-        public void BuyItem(int gold)
-        {
-            this.gold -= gold;
         }
     }
 }

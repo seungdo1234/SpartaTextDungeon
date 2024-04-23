@@ -1,13 +1,8 @@
 ﻿
 namespace TextRPG
 {
-    public class StatusScreen 
+    public class StatusScreen :Screen
     {
-        private GameManager gm;
-        public StatusScreen()
-        {
-            gm = GameManager.instance;
-        }
         
         // 상태 보기 
         public void StatusScreenOn()
@@ -17,7 +12,7 @@ namespace TextRPG
             while (true)
             {
                 StatusText();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 0 입력 시 나가기
                 if (int.TryParse(Console.ReadLine(), out int input) && input == 0)

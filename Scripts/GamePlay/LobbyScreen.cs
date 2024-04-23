@@ -1,16 +1,13 @@
-﻿using static System.Net.Mime.MediaTypeNames;
-
+﻿
 namespace TextRPG
 {
-    public class LobbyScreen
+    public class LobbyScreen : Screen
     {
-        private GameManager gm;
         private StatusScreen statusScreen;
         private InventoryScreen inventoryScreen;
         private ShopScreen shopScreen;
         public LobbyScreen()
         {
-            gm = GameManager.instance;
             statusScreen = new StatusScreen();
             inventoryScreen = new InventoryScreen();
             shopScreen = new ShopScreen();
@@ -24,7 +21,7 @@ namespace TextRPG
             while (true)
             {
                 LobbyText();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 1, 2, 3만 입력 받을 수 있게 함 
                 if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 4)

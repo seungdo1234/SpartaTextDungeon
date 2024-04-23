@@ -1,20 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace TextRPG
 {
-    public class InventoryScreen
+    public class InventoryScreen : Screen
     {
-        private GameManager gm;
-        private DataManager dm;
         private EquipScreen equipScreen;
         public InventoryScreen()
         {
-            gm = GameManager.instance;
-            dm = DataManager.instance;
             equipScreen = new EquipScreen();
         }
 
@@ -26,7 +17,7 @@ namespace TextRPG
             while (true)
             {
                 InventoryText();
-                gm.Text.MyActionText();
+                MyActionText();
 
                 // 1: 장착 관리, 2: 나가기
                 if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 3)
@@ -60,7 +51,7 @@ namespace TextRPG
             for (int i = 0; i < dm.PlayerItemsCount(); i++)
             {
                 Console.Write("- ");
-                gm.Text.InventoryItemText(dm.GetPlayerItem(i));
+                InventoryItemText(dm.GetPlayerItem(i));
             }
 
             Console.WriteLine();

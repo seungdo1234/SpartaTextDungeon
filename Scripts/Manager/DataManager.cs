@@ -42,11 +42,12 @@
             return shopItems[i];
         }
 
-        // 아이템을 구매했을 때 플레이어 아이템 리스트에 추가
+        // 아이템 구매
         public void AddPlayerItem(Item item)
         {
-            playerItems.Add(item);
-            item.Buy();
+            playerItems.Add(item); // 구매한 아이템 플레이어 아이템 리스트에 추가
+            GameManager.instance.Player.Gold -= item.Gold; // 골드 --
+            item.IsSell = true; // 팔렸다 표시
         }
     }
 }

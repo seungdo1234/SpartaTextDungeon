@@ -4,11 +4,11 @@ namespace TextRPG
     public enum ItemTypes { Attack, Defence }
     public class Item // 아이템 정보가 담긴 클래스
     {
-        private bool isSell;
-        private bool isEquip;
-        private string itemName;
-        private ItemTypes itemtype;
-        private int value;
+        private bool isSell; // 아이템이 팔렸는 지
+        private bool isEquip; // 장착 중인지
+        private string itemName; //
+        private ItemTypes itemtype; // 무기인지, 방어구인지
+        private int value; // 아이템의 능력치
         private string desc;
         private int gold;
 

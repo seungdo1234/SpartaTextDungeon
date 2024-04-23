@@ -56,7 +56,7 @@ namespace TextRPG
 
 
             Console.WriteLine($"체력 : {gm.Player.Health}");
-            Console.WriteLine($"Gold : {gm.Player.Gold}G");
+            Console.WriteLine($"Gold : {gm.Player.Gold} G");
 
             Console.WriteLine("\n0. 나가기\n");
         }

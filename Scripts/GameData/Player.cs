@@ -15,7 +15,7 @@
         public string Name { get => name; }
         public int Level { get => level; }
         public int Atk { get => atk + equipAtk; }
-        public int Def { get => def + equipDef; }
+        public int Def{ get => def + equipDef;}
         public int Health { get => health; }
         public int Gold { get => gold; set { gold = value; } }
         public int EquipAtk { get => equipAtk; set { equipAtk = value; } }
@@ -28,7 +28,7 @@
             atk = 10;
             def = 5;
             health = 100;
-            gold = 1500;
+            gold = 10000;
         }
     }
 }

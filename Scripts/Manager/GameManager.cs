@@ -5,33 +5,32 @@ namespace TextRPG
     {
         public static GameManager instance = new GameManager();
 
-
-        private PrintText text;
-        public PrintText Text { get => text; }
-
         private Player player;
         public Player Player{ get => player;}
-
-
-        // GameManger 초기화
-        public void Init()
-        {
-            text = new PrintText();
-        }
 
         // 로그인
         public void Login()
         {
-            text.LoginText();
-            
+            LoginText();
+
             // 닉네임을 입력받고 해당 닉네임으로 게임 시작
             player = new Player(Console.ReadLine());
 
             DataManager.instance.Init();
         }
 
+        public void LoginText()
+        {
+            Console.WriteLine();
 
+            Console.WriteLine("┌-----------------------------------------------┐");
+            Console.WriteLine("│                 스파르타 던전                 │");
+            Console.WriteLine("└-----------------------------------------------┘");
 
+            Console.WriteLine("\n");
 
+            Console.Write("닉네임을 입력하세요 >> ");
+
+        }
     }
 }

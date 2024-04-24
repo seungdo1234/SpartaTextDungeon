@@ -1,8 +1,8 @@
 ﻿namespace TextRPG
 {
-    public class DataManager
+    public class ItemDataManager // 데이터들을 관리하는 클래스
     {
-        public static DataManager instance = new DataManager();
+        public static ItemDataManager instance = new ItemDataManager();
 
         // 플레이어, 상점 아이템 리스트
         private List<Item> playerItems;
@@ -42,12 +42,19 @@
             return shopItems[i];
         }
 
+        
         // 아이템 구매
         public void AddPlayerItem(Item item)
         {
             playerItems.Add(item); // 구매한 아이템 플레이어 아이템 리스트에 추가
             GameManager.instance.Player.Gold -= item.Gold; // 골드 --
             item.IsSell = true; // 팔렸다 표시
+        }
+        
+        // 아이템 판매 시 플레이어 보유 아이템에서 제거
+        public void RemovePlayerItem(Item item) {  
+
+            playerItems.Remove(item);
         }
     }
 }

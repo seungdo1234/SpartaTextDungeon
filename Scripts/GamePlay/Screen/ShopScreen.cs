@@ -4,9 +4,11 @@ namespace TextRPG
     public class ShopScreen : Screen
     {
         private ItemBuyScreen itemBuyScreen;
+        private ItemSellScreen itemSellScreen;
         public ShopScreen()
         {
             itemBuyScreen = new ItemBuyScreen();
+            itemSellScreen = new ItemSellScreen();
         }
 
         // 상점 화면
@@ -19,13 +21,16 @@ namespace TextRPG
                 ShopText();
                 MyActionText();
 
-                // 0: 뒤로 가기  1: 아이템 구매
-                if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= 1)
+                // 0.뒤로 가기  1.아이템 구매  2.아이템 판매
+                if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= 2)
                 {
                     switch (input)
                     {
                         case 1:
                             itemBuyScreen.ItemBuyScreenOn();
+                            break;
+                        case 2:
+                            itemSellScreen.ItemSellScreenOn();
                             break;
                         case 0:
                             return;
@@ -67,6 +72,7 @@ namespace TextRPG
             Console.WriteLine();
 
             Console.WriteLine("1. 아이템 구매");
+            Console.WriteLine("2. 아이템 판매");
             Console.WriteLine("0. 나가기");
 
             Console.WriteLine();

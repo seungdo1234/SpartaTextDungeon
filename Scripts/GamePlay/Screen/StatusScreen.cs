@@ -40,17 +40,17 @@ namespace TextRPG
             Console.WriteLine($"Chad ( {gm.Player.Name} )");
 
             // 현재 장착중인 장비 능력치 적용
-            Console.Write($"공격력 : {gm.Player.Atk}");
-            if (gm.Player.EquipAtk != 0)
+            Console.Write($"공격력 : {gm.Player.Atk:F1}");
+            if (gm.Player.EquipAtkItem.Itemtype != null )
             {
-                Console.Write($" (+{gm.Player.EquipAtk})");
+                Console.Write($" (+{gm.Player.EquipAtkItem.Value:F1})");
             }
             Console.WriteLine();
 
-            Console.Write($"방어력 : {gm.Player.Def}");
-            if (gm.Player.EquipDef != 0)
+            Console.Write($"방어력 : {gm.Player.Def:F1}");
+            if (gm.Player.EquipDefItem != null)
             {
-                Console.Write($" (+{gm.Player.EquipDef})");
+                Console.Write($" (+{gm.Player.EquipDefItem.Value:F1})");
             }
             Console.WriteLine();
 

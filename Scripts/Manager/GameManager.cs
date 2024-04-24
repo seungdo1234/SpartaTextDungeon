@@ -8,15 +8,20 @@ namespace TextRPG
         private Player player;
         public Player Player{ get => player;}
 
+        private DungeonData dungeonData;
+        public  DungeonData DungeonData { get => dungeonData; }
+
         // 로그인
         public void Login()
         {
+            dungeonData = new DungeonData();
+
             LoginText();
 
             // 닉네임을 입력받고 해당 닉네임으로 게임 시작
             player = new Player(Console.ReadLine());
 
-            DataManager.instance.Init();
+            ItemDataManager.instance.Init();
         }
 
         public void LoginText()

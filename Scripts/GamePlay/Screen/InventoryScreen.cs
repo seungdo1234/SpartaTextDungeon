@@ -20,14 +20,14 @@ namespace TextRPG
                 MyActionText();
 
                 // 1: 장착 관리, 2: 나가기
-                if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 3)
+                if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input <= 1)
                 {
                     switch (input)
                     {
                         case 1:
                             equipScreen.EquipScreenOn();
                             break;
-                        case 2:
+                        case 0:
                             return;
                     }
                     Console.Clear();
@@ -57,7 +57,7 @@ namespace TextRPG
             Console.WriteLine();
 
             Console.WriteLine("1. 장착 관리");
-            Console.WriteLine("2. 나가기");
+            Console.WriteLine("0. 나가기");
 
             Console.WriteLine();
 

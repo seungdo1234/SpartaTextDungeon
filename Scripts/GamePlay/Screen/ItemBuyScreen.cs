@@ -3,13 +3,6 @@ namespace TextRPG
 {
     public class ItemBuyScreen :Screen
     {
-        private GameManager gm;
-        private DataManager dm;
-        public ItemBuyScreen()
-        {
-            gm = GameManager.instance;
-            dm = DataManager.instance;
-        }
 
         // 아이템 구매 화면
         public void ItemBuyScreenOn()

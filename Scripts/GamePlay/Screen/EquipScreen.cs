@@ -38,31 +38,38 @@ namespace TextRPG
 
         private void Equip(Item item) // 장비 장착 함수
         {
+            item.IsEquip = !item.IsEquip; // 선택한 장비 장착
 
-            item.IsEquip = !item.IsEquip;
-
-            if (item.IsEquip) // 장비 장착
+            if (item.IsEquip) // 장비를 장착한 거라면
             {
-                if (item.Itemtype == ItemTypes.Attack)
+                if (item.Itemtype == ItemTypes.Attack) // 무기일 때
                 {
-                    gm.Player.EquipAtk += item.Value;
+                    if(gm.Player.EquipAtkItem != null)
+                    {
+                        gm.Player.EquipAtkItem.IsEquip = false;
+                    }
+                    gm.Player.EquipAtkItem = item;
+                }
+                else // 방어구도 똑같이 동작
+                {
+                    if (gm.Player.EquipDefItem != null)
+                    {
+                        gm.Player.EquipDefItem.IsEquip = false;
+                    }
+                    gm.Player.EquipDefItem = item;
+                }
+            }
+            else // 장착 해제
+            {
+                if (item.Itemtype == ItemTypes.Attack) // 장착 아이템, 장착 하고 있던 아이템 정보 초기화
+                {
+                    gm.Player.EquipAtkItem = null;
                 }
                 else
                 {
-                    gm.Player.EquipDef += item.Value;
+                    gm.Player.EquipDefItem = null;
                 }
-            }
-            else
-            {
-                if (item.Itemtype == ItemTypes.Attack)
-                {
-                    gm.Player.EquipAtk -= item.Value;
-                }
-                else
-                {
-                    gm.Player.EquipDef -= item.Value;
-                }
-            }
+            }   
         }
 
         // 장비 장착 텍스트 출력

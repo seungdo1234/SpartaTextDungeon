@@ -5,11 +5,11 @@ namespace TextRPG
     // 각종 스크린 클래스의 부모클래스
     public class Screen
     {
-        protected DataManager dm;
+        protected ItemDataManager dm;
         protected GameManager gm;
         public Screen()
         {
-            dm = DataManager.instance;
+            dm = ItemDataManager.instance;
             gm = GameManager.instance;
         }
 

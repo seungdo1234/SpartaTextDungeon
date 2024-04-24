@@ -6,11 +6,15 @@ namespace TextRPG
         private StatusScreen statusScreen;
         private InventoryScreen inventoryScreen;
         private ShopScreen shopScreen;
+        private DungeonScreen dungeonScreen;
+        private RestScreen restScreen;
         public LobbyScreen()
         {
             statusScreen = new StatusScreen();
             inventoryScreen = new InventoryScreen();
             shopScreen = new ShopScreen();
+            dungeonScreen = new DungeonScreen();
+            restScreen = new RestScreen();
         }
 
         // 로비 화면
@@ -24,7 +28,7 @@ namespace TextRPG
                 MyActionText();
 
                 // 1, 2, 3만 입력 받을 수 있게 함 
-                if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 4)
+                if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 6)
                 {
                     switch (input)
                     {
@@ -36,6 +40,12 @@ namespace TextRPG
                             break;
                         case 3:
                             shopScreen.ShopScreenOn();
+                            break;
+                        case 4:
+                            dungeonScreen.DungeonScreenOn();
+                            break;
+                        case 5:
+                            restScreen.RestScreenOn();
                             break;
                     }
                     Console.Clear();
@@ -58,7 +68,11 @@ namespace TextRPG
 
             Console.WriteLine("1. 상태 보기");
             Console.WriteLine("2. 인벤토리");
-            Console.WriteLine("3. 상점\n");
+            Console.WriteLine("3. 상점");
+            Console.WriteLine("4. 던전입장");
+            Console.WriteLine("5. 휴식하기");
+
+            Console.WriteLine();
         }
 
     }

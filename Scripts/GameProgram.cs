@@ -1,24 +1,23 @@
 ﻿
-using System.Runtime.InteropServices.JavaScript;
 
 namespace TextRPG
 {
     public class GameProgram
     {
         private GameManager gm;
-        private LobbyScreen lobby;
+        private LoginScreen loginScreen;
 
         public GameProgram()
         {
             gm = GameManager.instance;
-            lobby = new LobbyScreen();
+            loginScreen = new LoginScreen();
         }
         // 게임 시작
         public void GameStart()
         {
-            gm.Login();
+            gm.Init();
 
-            lobby.LobbyScreenOn();
+            loginScreen.LoginScreenOn();
         }
 
         static void Main(string[] args)

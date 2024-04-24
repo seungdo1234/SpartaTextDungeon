@@ -22,8 +22,6 @@ namespace TextRPG
         public int Gold { get => gold; set { gold = value; } }
 
 
-        public Item() { }
-
         // 아이템 초기화
         public Item(string itemName, ItemTypes itemType, float value ,string desc, int gold)
         {

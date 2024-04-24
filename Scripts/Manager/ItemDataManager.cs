@@ -42,7 +42,20 @@
             return shopItems[i];
         }
 
-        
+        public List<Item> GetAllPlayerItems()
+        {
+            return playerItems;
+        }
+        public List<Item> GetAllShopItems()
+        {
+            return shopItems;
+        }
+
+        public void SetAlItems(List<Item> shopItems, List<Item> playerItems)
+        {
+            this.playerItems= playerItems;
+            this.shopItems= shopItems;
+        }
         // 아이템 구매
         public void AddPlayerItem(Item item)
         {

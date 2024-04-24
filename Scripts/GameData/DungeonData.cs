@@ -26,7 +26,7 @@ namespace TextRPG
             dungeonNames = new string[3] { "쉬운 던전", "일반 던전", "어려운 던전" };
             recommendedDefs = new int[3] { 5, 11, 17 };
             dungeonRewards = new int[3] { 1000, 1700, 2500 };
-        
         }
+
     }
 }

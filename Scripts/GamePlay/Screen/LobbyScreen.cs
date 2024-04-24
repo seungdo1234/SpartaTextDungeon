@@ -28,10 +28,13 @@ namespace TextRPG
                 MyActionText();
 
                 // 1, 2, 3만 입력 받을 수 있게 함 
-                if (int.TryParse(Console.ReadLine(), out int input) && input > 0 && input < 6)
+                if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input < 6)
                 {
                     switch (input)
                     {
+                        case 0:
+                            gm.SaveSystem.Save();
+                            return;
                         case 1:
                             statusScreen.StatusScreenOn();
                             break;
@@ -71,6 +74,10 @@ namespace TextRPG
             Console.WriteLine("3. 상점");
             Console.WriteLine("4. 던전입장");
             Console.WriteLine("5. 휴식하기");
+
+            Console.WriteLine();
+
+            Console.WriteLine("0. 저장 및 나가기");
 
             Console.WriteLine();
         }

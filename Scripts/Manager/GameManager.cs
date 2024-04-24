@@ -11,17 +11,21 @@ namespace TextRPG
         private DungeonData dungeonData;
         public  DungeonData DungeonData { get => dungeonData; }
 
+
+        private SaveSystem saveSystem;
+        public SaveSystem SaveSystem { get => saveSystem;}
+
         // 로그인
         public void Login()
         {
             dungeonData = new DungeonData();
+            saveSystem = new SaveSystem();
 
             LoginText();
 
             // 닉네임을 입력받고 해당 닉네임으로 게임 시작
-            player = new Player(Console.ReadLine());
+            player = saveSystem.Load(Console.ReadLine());
 
-            ItemDataManager.instance.Init();
         }
 
         public void LoginText()

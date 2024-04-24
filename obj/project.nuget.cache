@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L6uelV6HijT2KHDmWsH6CPM54wzZoCOLOX6YQ3s9ocm+hAD+Gh3bhdwPJwBGxeVqqsiL1Z3JUQtvG+UjYex4dQ==",
+  "dgSpecHash": "LYT7yPqQoUt+gIyOdDPJ544xrhIngcaD5/dWJCdf/FCgok84QJYG0HzX41wsh5oEI/oeXcFlGREHIQ1RI4Fw1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\TextRPG.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\wltmd\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

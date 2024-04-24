@@ -15,11 +15,11 @@ namespace TextRPG
 
         public bool IsSell { get => isSell; set { isSell = value; } }
         public bool IsEquip { get => isEquip; set { isEquip = value; } }
-        public string ItemName { get => itemName; }
-        public ItemTypes Itemtype { get => itemtype; }
-        public float Value { get => value; }
-        public string Desc { get => desc; }
-        public int Gold { get => gold; }
+        public string ItemName { get => itemName; set { itemName = value; } }
+        public ItemTypes Itemtype { get => itemtype; set { itemtype = value; } }
+        public float Value { get => value; set { this.value = value; } }
+        public string Desc { get => desc; set { desc = value; } }
+        public int Gold { get => gold; set { gold = value; } }
 
 
         public Item() { }

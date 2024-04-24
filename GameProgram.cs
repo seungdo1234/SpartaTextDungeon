@@ -1,4 +1,6 @@
 ﻿
+using System.Runtime.InteropServices.JavaScript;
+
 namespace TextRPG
 {
     public class GameProgram
@@ -18,6 +20,7 @@ namespace TextRPG
 
             lobby.LobbyScreenOn();
         }
+
         static void Main(string[] args)
         {
             GameProgram program = new GameProgram();

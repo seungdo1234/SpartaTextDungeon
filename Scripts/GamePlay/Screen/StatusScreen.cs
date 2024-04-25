@@ -36,8 +36,9 @@ namespace TextRPG
             Console.WriteLine("상태 보기");
             Console.WriteLine("캐릭터의 정보가 표시됩니다.\n");
 
+            Console.WriteLine($"이름 ( {gm.Player.Name} )");
             Console.WriteLine($"Lv.{gm.Player.Level}");
-            Console.WriteLine($"Chad ( {gm.Player.Name} )");
+            Console.WriteLine($"직업 ( {gm.Player.GetPlayerClass(gm.Player.PlayerClass)} )");
 
             // 현재 장착중인 장비 능력치 적용
             Console.Write($"공격력 : {gm.Player.GetAtkValue():F1}");

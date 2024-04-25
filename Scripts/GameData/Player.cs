@@ -3,9 +3,11 @@ using Newtonsoft.Json.Linq;
 
 namespace TextRPG
 {
+    public enum PlayerClass { defalut, Warrior, Archer, Thief, Magician }
     public class Player
     {
         // 캐릭터 정보
+        private PlayerClass playerClass;
         private string name;
         private int level;
         private float atk;
@@ -22,6 +24,7 @@ namespace TextRPG
         private Item equipAtkItem;
         private Item equipDefItem;
 
+        public PlayerClass PlayerClass { get => playerClass; set { playerClass = value; } }
         public string Name { get => name; set { name = value; } }
         public int Level { get => level; set { level = value; } }
 
@@ -46,6 +49,19 @@ namespace TextRPG
             gold = 10000;
         }
 
+        public string GetPlayerClass(PlayerClass _playerClass) // 플레이어의 직업 별 이름 반환 
+        {
+            string playerClass = _playerClass switch
+            {
+                PlayerClass.Warrior => "전사",
+                PlayerClass.Archer => "궁수",
+                PlayerClass.Thief => "도적",
+                PlayerClass.Magician => "마법사",
+                _ => "직업이 존재하지 않습니다." // default
+            };
+
+            return playerClass;
+        }
         public float GetAtkValue() // 전체 공격력 반환
         {
             if (equipAtkItem == null)

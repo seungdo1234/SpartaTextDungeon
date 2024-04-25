@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\lobbyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\lobbyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\classselectionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\classselectionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\itemsellscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\itemsellscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\statusscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\statusscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\shopscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\restscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\restscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\itembuyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\itembuyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\inventoryscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\inventoryscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\equipscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\equipscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\dungeonscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\dungeonscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\dungeonresultscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\dungeonresultscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gamedata\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gamedata\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\lobbyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\lobbyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\system\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\system\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\manager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +75,12 @@
       "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gamedata\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gamedata\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gamedata\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gamedata\\dungeondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gamedata\\dungeondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\manager\\itemdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\manager\\itemdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\system\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\system\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\equipscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\equipscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|c:\\users\\wltmd\\source\\repos\\cs_2\\textrpg\\spartatextdungeon\\scripts\\gameplay\\screen\\statusscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FFF0B51D-100B-465E-ABF8-255EE43D9460}|TextRPG.csproj|solutionrelative:scripts\\gameplay\\screen\\statusscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,37 +90,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ShopScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ShopScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\ShopScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ShopScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\ShopScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:45.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\Screen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\Screen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\Screen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\Screen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:40.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\RestScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\RestScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\RestScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\RestScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvzIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:39.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\StatusScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\StatusScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\StatusScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\StatusScreen.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAA8wCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:16:46.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LoginScreen.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\LoginScreen.cs",
               "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\LoginScreen.cs",
               "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\LoginScreen.cs",
               "RelativeToolTip": "Scripts\\GamePlay\\Screen\\LoginScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBoAAABNAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T15:25:31.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\ItemData.cs",
-              "RelativeDocumentMoniker": "Scripts\\GameData\\ItemData.cs",
-              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\ItemData.cs",
-              "RelativeToolTip": "Scripts\\GameData\\ItemData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:23:14.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "ItemDataManager.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\Manager\\ItemDataManager.cs",
               "RelativeDocumentMoniker": "Scripts\\Manager\\ItemDataManager.cs",
@@ -92,12 +167,36 @@
               "RelativeToolTip": "Scripts\\Manager\\ItemDataManager.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAADwvwsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T10:51:54.905Z",
+              "WhenOpened": "2024-04-24T10:51:54.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\Player.cs",
+              "RelativeDocumentMoniker": "Scripts\\GameData\\Player.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\Player.cs",
+              "RelativeToolTip": "Scripts\\GameData\\Player.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwCQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T10:17:43.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\ItemData.cs",
+              "RelativeDocumentMoniker": "Scripts\\GameData\\ItemData.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\ItemData.cs",
+              "RelativeToolTip": "Scripts\\GameData\\ItemData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:23:14.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "GameProgram.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameProgram.cs",
               "RelativeDocumentMoniker": "Scripts\\GameProgram.cs",
@@ -110,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "DungeonData.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\DungeonData.cs",
               "RelativeDocumentMoniker": "Scripts\\GameData\\DungeonData.cs",
@@ -118,43 +217,95 @@
               "RelativeToolTip": "Scripts\\GameData\\DungeonData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T10:09:35.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\Player.cs",
-              "RelativeDocumentMoniker": "Scripts\\GameData\\Player.cs",
-              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GameData\\Player.cs",
-              "RelativeToolTip": "Scripts\\GameData\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T10:17:43.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T10:09:35.921Z"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StatusScreen.cs",
-              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\StatusScreen.cs",
-              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\StatusScreen.cs",
-              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\StatusScreen.cs",
-              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\StatusScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "ItemSellScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ItemSellScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\ItemSellScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ItemSellScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\ItemSellScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:02:44.397Z"
+              "WhenOpened": "2024-04-25T02:23:37.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "ItemBuyScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ItemBuyScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\ItemBuyScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ItemBuyScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\ItemBuyScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvzAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:35.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\InventoryScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\InventoryScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\InventoryScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\InventoryScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:33.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DungeonScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\DungeonScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\DungeonScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\DungeonScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\DungeonScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvyQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:26.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DungeonResultScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\DungeonResultScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\DungeonResultScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\DungeonResultScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\DungeonResultScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:23:21.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassSelectionScreen.cs",
+              "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ClassSelectionScreen.cs",
+              "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\ClassSelectionScreen.cs",
+              "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\ClassSelectionScreen.cs",
+              "RelativeToolTip": "Scripts\\GamePlay\\Screen\\ClassSelectionScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T02:06:52.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\Manager\\GameManager.cs",
               "RelativeDocumentMoniker": "Scripts\\Manager\\GameManager.cs",
@@ -175,30 +326,31 @@
               "RelativeToolTip": "Scripts\\GamePlay\\Screen\\EquipScreen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T11:02:37.143Z"
+              "WhenOpened": "2024-04-24T11:02:37.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "LobbyScreen.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\LobbyScreen.cs",
               "RelativeDocumentMoniker": "Scripts\\GamePlay\\Screen\\LobbyScreen.cs",
               "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\GamePlay\\Screen\\LobbyScreen.cs",
               "RelativeToolTip": "Scripts\\GamePlay\\Screen\\LobbyScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAfAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAxwDoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T10:46:24.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\System\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Scripts\\System\\SaveSystem.cs",
               "ToolTip": "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Scripts\\System\\SaveSystem.cs",
               "RelativeToolTip": "Scripts\\System\\SaveSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAXAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvz4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T10:13:49.987Z",
               "EditorCaption": ""

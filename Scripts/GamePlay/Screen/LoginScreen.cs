@@ -19,9 +19,9 @@ namespace TextRPG
             // 닉네임을 입력받고 해당 닉네임의 데이터를 받아오고 게임 시작
             gm.Player = gm.SaveSystem.Load(Console.ReadLine());
 
-            if(gm.Player.PlayerClass == PlayerClass.defalut)
+            if(gm.Player.PlayerClass == PlayerClass.defalut) // 새로 생성한 플레이어 데이터라면
             {
-                classSelectionScreen.ClassSelectionScreenOn();
+                classSelectionScreen.ClassSelectionScreenOn(); // 직업 선택
             }
 
             lobbyScreen.LobbyScreenOn();

@@ -25,6 +25,19 @@ namespace TextRPG
                     Item item = dm.GetPlayerItem(input - 1);
 
                     item.IsSell = false; // 판매
+
+                    if (item.IsEquip) // 장착 중인 아이템을 팔 경우 장착 해제
+                    {
+                        if(item.Itemtype == ItemTypes.Attack)
+                        {
+                            gm.Player.EquipAtkItem = null;
+                        }
+                        else
+                        {
+                            gm.Player.EquipDefItem = null;
+                        }
+                    }
+
                     gm.Player.Gold += (int)((float)item.Gold * 0.8f); // 골드 ++
                     dm.RemovePlayerItem(item); // 아이템 삭제
                     

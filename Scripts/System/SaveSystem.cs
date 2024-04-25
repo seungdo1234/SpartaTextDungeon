@@ -20,7 +20,8 @@ namespace TextRPG
 
     public class SaveSystem
     {
-        private string path = "C:\\Users\\wltmd\\source\\repos\\CS_2\\TextRPG\\SpartaTextDungeon\\Datas";
+        // Exe 파일이 들어 있는 경로 저장
+        private string path = AppDomain.CurrentDomain.BaseDirectory;
 
         public void Save()
         {

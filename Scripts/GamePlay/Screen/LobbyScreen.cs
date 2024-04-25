@@ -27,7 +27,7 @@ namespace TextRPG
                 LobbyText();
                 MyActionText();
 
-                // 1, 2, 3만 입력 받을 수 있게 함 
+                // 로비 화면 입력
                 if (int.TryParse(Console.ReadLine(), out int input) && input >= 0 && input < 6)
                 {
                     switch (input)
